@@ -13,7 +13,6 @@ To integrate Alamofire into your Xcode project using CocoaPods, specify it in yo
 
 
 ```
-source 'https://github.com/adolfogarza/SweetDate.git'
 platform :ios, '10.0'
 use_frameworks!
 
