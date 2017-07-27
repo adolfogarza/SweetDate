@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045805101F28EF4900E99D93 /* SweetDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045805061F28EF4900E99D93 /* SweetDate.framework */; };
+		045805151F28EF4900E99D93 /* SweetDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045805141F28EF4900E99D93 /* SweetDateTests.swift */; };
+		045805171F28EF4900E99D93 /* SweetDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 045805091F28EF4900E99D93 /* SweetDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045805281F295ED700E99D93 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045805261F295ED700E99D93 /* Date+String.swift */; };
+		045805291F295ED700E99D93 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045805261F295ED700E99D93 /* Date+String.swift */; };
+		0458052A1F295ED700E99D93 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045805271F295ED700E99D93 /* DateFormats.swift */; };
+		0458052B1F295ED700E99D93 /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045805271F295ED700E99D93 /* DateFormats.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045805111F28EF4900E99D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045804FD1F28EF4900E99D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045805051F28EF4900E99D93;
+			remoteInfo = SweetDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045805061F28EF4900E99D93 /* SweetDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		045805091F28EF4900E99D93 /* SweetDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SweetDate.h; sourceTree = "<group>"; };
+		0458050A1F28EF4900E99D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0458050F1F28EF4900E99D93 /* SweetDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045805141F28EF4900E99D93 /* SweetDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetDateTests.swift; sourceTree = "<group>"; };
+		045805161F28EF4900E99D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045805261F295ED700E99D93 /* Date+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
+		045805271F295ED700E99D93 /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045805021F28EF4900E99D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458050C1F28EF4900E99D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045805101F28EF4900E99D93 /* SweetDate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045804FC1F28EF4900E99D93 = {
+			isa = PBXGroup;
+			children = (
+				045805081F28EF4900E99D93 /* SweetDate */,
+				045805131F28EF4900E99D93 /* SweetDateTests */,
+				045805071F28EF4900E99D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045805071F28EF4900E99D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045805061F28EF4900E99D93 /* SweetDate.framework */,
+				0458050F1F28EF4900E99D93 /* SweetDateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045805081F28EF4900E99D93 /* SweetDate */ = {
+			isa = PBXGroup;
+			children = (
+				045805091F28EF4900E99D93 /* SweetDate.h */,
+				045805261F295ED700E99D93 /* Date+String.swift */,
+				045805271F295ED700E99D93 /* DateFormats.swift */,
+				0458050A1F28EF4900E99D93 /* Info.plist */,
+			);
+			path = SweetDate;
+			sourceTree = "<group>";
+		};
+		045805131F28EF4900E99D93 /* SweetDateTests */ = {
+			isa = PBXGroup;
+			children = (
+				045805141F28EF4900E99D93 /* SweetDateTests.swift */,
+				045805161F28EF4900E99D93 /* Info.plist */,
+			);
+			path = SweetDateTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		045805031F28EF4900E99D93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045805171F28EF4900E99D93 /* SweetDate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		045805051F28EF4900E99D93 /* SweetDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458051A1F28EF4900E99D93 /* Build configuration list for PBXNativeTarget "SweetDate" */;
+			buildPhases = (
+				045805011F28EF4900E99D93 /* Sources */,
+				045805021F28EF4900E99D93 /* Frameworks */,
+				045805031F28EF4900E99D93 /* Headers */,
+				045805041F28EF4900E99D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetDate;
+			productName = SweetDate;
+			productReference = 045805061F28EF4900E99D93 /* SweetDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0458050E1F28EF4900E99D93 /* SweetDateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458051D1F28EF4900E99D93 /* Build configuration list for PBXNativeTarget "SweetDateTests" */;
+			buildPhases = (
+				0458050B1F28EF4900E99D93 /* Sources */,
+				0458050C1F28EF4900E99D93 /* Frameworks */,
+				0458050D1F28EF4900E99D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045805121F28EF4900E99D93 /* PBXTargetDependency */,
+			);
+			name = SweetDateTests;
+			productName = SweetDateTests;
+			productReference = 0458050F1F28EF4900E99D93 /* SweetDateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045804FD1F28EF4900E99D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AdolfoGarza;
+				TargetAttributes = {
+					045805051F28EF4900E99D93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S2EKXNXGPT;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					0458050E1F28EF4900E99D93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S2EKXNXGPT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 045805001F28EF4900E99D93 /* Build configuration list for PBXProject "SweetDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 045804FC1F28EF4900E99D93;
+			productRefGroup = 045805071F28EF4900E99D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045805051F28EF4900E99D93 /* SweetDate */,
+				0458050E1F28EF4900E99D93 /* SweetDateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045805041F28EF4900E99D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458050D1F28EF4900E99D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045805011F28EF4900E99D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458052A1F295ED700E99D93 /* DateFormats.swift in Sources */,
+				045805281F295ED700E99D93 /* Date+String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458050B1F28EF4900E99D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458052B1F295ED700E99D93 /* DateFormats.swift in Sources */,
+				045805291F295ED700E99D93 /* Date+String.swift in Sources */,
+				045805151F28EF4900E99D93 /* SweetDateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045805121F28EF4900E99D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045805051F28EF4900E99D93 /* SweetDate */;
+			targetProxy = 045805111F28EF4900E99D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		045805181F28EF4900E99D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		045805191F28EF4900E99D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0458051B1F28EF4900E99D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SweetDate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdolfoGarza.SweetDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0458051C1F28EF4900E99D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SweetDate/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdolfoGarza.SweetDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0458051E1F28EF4900E99D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				INFOPLIST_FILE = SweetDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdolfoGarza.SweetDateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0458051F1F28EF4900E99D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2EKXNXGPT;
+				INFOPLIST_FILE = SweetDateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdolfoGarza.SweetDateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045805001F28EF4900E99D93 /* Build configuration list for PBXProject "SweetDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045805181F28EF4900E99D93 /* Debug */,
+				045805191F28EF4900E99D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0458051A1F28EF4900E99D93 /* Build configuration list for PBXNativeTarget "SweetDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458051B1F28EF4900E99D93 /* Debug */,
+				0458051C1F28EF4900E99D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0458051D1F28EF4900E99D93 /* Build configuration list for PBXNativeTarget "SweetDateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458051E1F28EF4900E99D93 /* Debug */,
+				0458051F1F28EF4900E99D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045804FD1F28EF4900E99D93 /* Project object */;
+}
