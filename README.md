@@ -34,7 +34,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 SweetDate makes it easy for you to create Date Types with common sense coding scenarios.
 
-## Date Format
+### Date Format
 
 SweetDate supports the 3 most popular worldwide formats:
 
@@ -65,5 +65,5 @@ Date.fromString(Date: "12-02-2017", Format: .mdy)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
