@@ -9,7 +9,7 @@ SweetDate is a work in progress, in the mean time you can enjoy the nice improve
 
 ### Installing with CocoaPods
 
-To integrate Alamofire into your Xcode project using CocoaPods, specify it in your Podfile:
+To integrate SweetDate into your Xcode project using CocoaPods, specify it in your Podfile:
 
 
 ```
